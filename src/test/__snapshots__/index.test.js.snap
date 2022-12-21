@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employee Data renders correctly 1`] = `
+<div
+  className="App"
+  data-testid="EmployeeTable"
+>
+  <div
+    className="App"
+    data-testid="EmployeeFilterField"
+  >
+    <div
+      className="rowStyleContainer"
+    >
+      <div
+        className="columnStyle"
+      >
+        <h4>
+          Log ID
+        </h4>
+        <input
+          aria-label="LogId"
+          data-testid="LogId"
+          name="LogId"
+          onChange={[Function]}
+          placeholder="Log Id"
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        className="columnStyle"
+      >
+        <h4>
+          Application type
+        </h4>
+        <select
+          aria-label="ApplicationType"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            value=""
+          >
+            Select ApplicationType
+          </option>
+        </select>
+      </div>
+      <div
+        className="columnStyle"
+      >
+        <h4>
+          Application ID
+        </h4>
+        <input
+          aria-label="ApplicationId"
+          data-testid="ApplicationId"
+          name="ApplicationId"
+          onChange={[Function]}
+          placeholder="application ID"
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        className="columnStyle"
+      >
+        <h4>
+          Action type
+        </h4>
+        <select
+          aria-label="ActionType"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            value=""
+          >
+            Select ActionType
+          </option>
+        </select>
+      </div>
+      <div
+        className="columnStyle"
+      >
+        <h4>
+          From Date
+        </h4>
+        <div
+          className="rowStyleContainer"
+        >
+          <input
+            aria-label="fromDate"
+            data-testid="fromDate"
+            name="fromDate"
+            onChange={[Function]}
+            placeholder="Select Date"
+            type="date"
+            value="Select Date"
+          />
+        </div>
+      </div>
+      <div
+        className="columnStyle"
+      >
+        <h4>
+          To Date
+        </h4>
+        <div
+          className="rowStyleContainer"
+        >
+          <input
+            aria-label="toDate"
+            data-testid="toDate"
+            name="toDate"
+            onChange={[Function]}
+            type="date"
+          />
+        </div>
+      </div>
+      <button
+        data-testid="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "blue",
+            "height": "50px",
+            "marginLeft": "10px",
+            "marginTop": "20px",
+          }
+        }
+        type="submit"
+      >
+        Search Logger
+      </button>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th
+          onClick={[Function]}
+        >
+          Log ID
+        </th>
+        <th
+          onClick={[Function]}
+        >
+          Application Type
+        </th>
+        <th
+          onClick={[Function]}
+        >
+          Application ID
+        </th>
+        <th
+          onClick={[Function]}
+        >
+          Action Type
+        </th>
+        <th>
+          Action Details
+        </th>
+        <th
+          onClick={[Function]}
+        >
+          Date:Time
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+  <div>
+    <ul
+      className="pagination justify-content-center"
+    >
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          &lt;&lt;
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          &gt;&gt;
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

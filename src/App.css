@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+th {
+  padding-left: 50px;
+  border-bottom: 1px solid black;
+  background: darkgray;
+}
+
+td {
+  text-align: center;
+  height: 45px;
+  border: 1px solid black;
+  color: rgb(73, 72, 58);
+}
+.rowStyleContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.columnStyle {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
